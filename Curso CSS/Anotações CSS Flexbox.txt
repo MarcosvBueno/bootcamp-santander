@@ -170,4 +170,79 @@ space-between: cria um espaçamentoigual entre os elementos .
 
 space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
 
+
+
+----------------------------------------------- * Flex Itens *--------------------------------------------------------------------
+
+Defineaproporcionalidade de crescimentos dos itens,respeitando
+ tamanho de seus conteúdos internos.
+
+OBS:não irá funcionar caso tenhamos adicionado justify-content
+ao nosso flex container.
+
+
+
+------------------------------------------------ * flex Basis * -------------------------------------------------------------------
+
+
+É apropriedade que estabelece o tamanho inicial do item antes
+das distribuição de espaço restante dentro dele,usando como
+base o conteúdo interno disposto.
+
+
+------------------------------------ Valores Possíveis :
+
+auto:caso o item não tenha tamanho,este será proporcional
+ao conteúdo do item. 
+
+px,%,em,...:são valores exatos previamente definidos.
+
+0(zero):terá relação com a definição do flex-grow.
+
+
+
+------------------------------------------------------ * Flex shrink * ---------------------------------------------------------------
+
+
+É a propriedade que estabelecera capacidade de redução ou
+compressão do tamanho de um item.
+
+
+
+------------------------------------------------------- * Propiedade Flex * -------------------------------------------------------------
+
+
+Esta propriedadeéum atalho ou abreviação de escrita para as
+propriedades:grow,shrink e basis.
+
+
+
+-------------------------------------------------------- * Order * ---------------------------------------------------------------------
+
+É a propiedade que estabelece a ordem de procedência dos itens que vão ser listados.
+
+
+
+-------------------------------------------------------- * Align Self * -----------------------------------------------------------------
+
+É a propriedade que estabelece o alinhamento de modo individual
+sobre um determinado item.
+
+
+
+------------------------------------ Valores Possíveis :
+
+
+auto: valor padrão,irá respeitar a definição de align-items do
+container
+
+flex-start: ao início do container.
+
+flex-end: ao final do container.
+
+center: relativo ao centro de acordo como eixo.
+
+stretch: ocupa todo os espaço relativo.
+
+baseline: utilizaalinha base da tipografia.
                      
