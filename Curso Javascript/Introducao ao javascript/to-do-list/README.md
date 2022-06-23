@@ -8,7 +8,7 @@ Neste projeto, iremos criar uma simples lista de tarefas.
 2. Quando o botão for pressionado, o texto deve aparecer na lista com um `checkbox` ao lado;
 3. Quando o usuário selecionar o checkbox, o item correspondente deve ficar com o texto riscado.
 
-## resultado :
+## Resultado :
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/104960654/175204635-9a5df172-6d0b-4dd0-b50f-301ce3a7b87c.png">
